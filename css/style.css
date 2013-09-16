@@ -1,7 +1,7 @@
 body{
   background-image: url(../images/background_light.jpg);
   background-repeat: repeat-x;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .container{
@@ -13,14 +13,32 @@ header > img{
   margin-top: 30px;
 }
 
-.one > h1{
-  float: left;
+.one{
+  height: 313px;
+  background-color: white;
 }
 
-.one > h4{
+.text{
+  width: 540px;
   float: left;
+  margin: 10px -20px -10px 20px;
 }
 
-.one > p{
-  float: left;
+.text > p{
+  width: 501px;
+  font-size: 12px;
+  color: gray;
+}
+
+.image{
+  width: 420px;
+  float: right;
+}
+
+.image img{
+  margin: 10px 0px -10px -10px;
+}
+
+.two{
+  width: 80%;
 }
