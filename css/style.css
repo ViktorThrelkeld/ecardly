@@ -41,6 +41,7 @@ header > img{
 
 .two{
   width: 80%;
+  float: left;
 }
 
 .one > p{
@@ -49,8 +50,40 @@ header > img{
 
 /****************************block three*/
 #three{
-  background-color: pink;
+
+  background-color: #bcbcbc;
   float:right;
   width:20%;
+  height: 700px;
+  font-size: 12px;
+
+
+}
+#blog {
+  margin-left: 15px;
+  margin-top: 35px;
+
+}
+#friends{
+  margin-left: 15px;
+  margin-top: 35px;
+}
+
+#friends > h4{
+  color: gray;
+}
+
+#blog  > h4{
+ color: gray;
+}
+
+.side{
+  margin-left: 20px;
+  margin-top:
+
+}
+#three:nth-child(2){
+  margin-top: 10px;
+
 }
 
