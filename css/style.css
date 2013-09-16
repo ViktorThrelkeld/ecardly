@@ -42,3 +42,15 @@ header > img{
 .two{
   width: 80%;
 }
+
+.one > p{
+  float: left;
+}
+
+/****************************block three*/
+#three{
+  background-color: pink;
+  float:right;
+  width:20%;
+}
+
